@@ -16,6 +16,9 @@
 		8635B55E2B557B0C0084A7C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8635B5602B557B0C0084A7C6 /* Localizable.strings */; };
 		8635B5642B557D370084A7C6 /* FontStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B5632B557D370084A7C6 /* FontStateManager.swift */; };
 		8635B5662B557D4D0084A7C6 /* FontDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B5652B557D4D0084A7C6 /* FontDownloader.swift */; };
+		8635B5692B557E3E0084A7C6 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B5682B557E3E0084A7C6 /* List.swift */; };
+		8635B56B2B557E520084A7C6 /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B56A2B557E520084A7C6 /* Preview.swift */; };
+		8635B56D2B557EB20084A7C6 /* FontData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B56C2B557EB20084A7C6 /* FontData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		8635B5612B557B190084A7C6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8635B5632B557D370084A7C6 /* FontStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStateManager.swift; sourceTree = "<group>"; };
 		8635B5652B557D4D0084A7C6 /* FontDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDownloader.swift; sourceTree = "<group>"; };
+		8635B5682B557E3E0084A7C6 /* List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		8635B56A2B557E520084A7C6 /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		8635B56C2B557EB20084A7C6 /* FontData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +69,11 @@
 		8635B5472B5579A50084A7C6 /* FontDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				8635B5622B557D190084A7C6 /* Model */,
 				8635B5482B5579A50084A7C6 /* AppDelegate.swift */,
 				8635B54A2B5579A50084A7C6 /* SceneDelegate.swift */,
-				8635B54C2B5579A50084A7C6 /* ViewController.swift */,
+				8635B56C2B557EB20084A7C6 /* FontData.swift */,
+				8635B5622B557D190084A7C6 /* Model */,
+				8635B5672B557E0E0084A7C6 /* View */,
 				8635B54E2B5579A50084A7C6 /* Main.storyboard */,
 				8635B5512B5579A60084A7C6 /* Assets.xcassets */,
 				8635B5532B5579A60084A7C6 /* LaunchScreen.storyboard */,
@@ -83,6 +90,16 @@
 				8635B5652B557D4D0084A7C6 /* FontDownloader.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8635B5672B557E0E0084A7C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8635B54C2B5579A50084A7C6 /* ViewController.swift */,
+				8635B5682B557E3E0084A7C6 /* List.swift */,
+				8635B56A2B557E520084A7C6 /* Preview.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +177,12 @@
 			files = (
 				8635B5662B557D4D0084A7C6 /* FontDownloader.swift in Sources */,
 				8635B5642B557D370084A7C6 /* FontStateManager.swift in Sources */,
+				8635B56D2B557EB20084A7C6 /* FontData.swift in Sources */,
 				8635B54D2B5579A50084A7C6 /* ViewController.swift in Sources */,
 				8635B5492B5579A50084A7C6 /* AppDelegate.swift in Sources */,
+				8635B56B2B557E520084A7C6 /* Preview.swift in Sources */,
 				8635B54B2B5579A50084A7C6 /* SceneDelegate.swift in Sources */,
+				8635B5692B557E3E0084A7C6 /* List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
