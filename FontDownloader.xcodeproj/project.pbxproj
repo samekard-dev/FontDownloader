@@ -14,6 +14,8 @@
 		8635B5522B5579A60084A7C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8635B5512B5579A60084A7C6 /* Assets.xcassets */; };
 		8635B5552B5579A60084A7C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8635B5532B5579A60084A7C6 /* LaunchScreen.storyboard */; };
 		8635B55E2B557B0C0084A7C6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8635B5602B557B0C0084A7C6 /* Localizable.strings */; };
+		8635B5642B557D370084A7C6 /* FontStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B5632B557D370084A7C6 /* FontStateManager.swift */; };
+		8635B5662B557D4D0084A7C6 /* FontDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8635B5652B557D4D0084A7C6 /* FontDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		8635B5562B5579A60084A7C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8635B55F2B557B0C0084A7C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		8635B5612B557B190084A7C6 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8635B5632B557D370084A7C6 /* FontStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStateManager.swift; sourceTree = "<group>"; };
+		8635B5652B557D4D0084A7C6 /* FontDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		8635B5472B5579A50084A7C6 /* FontDownloader */ = {
 			isa = PBXGroup;
 			children = (
+				8635B5622B557D190084A7C6 /* Model */,
 				8635B5482B5579A50084A7C6 /* AppDelegate.swift */,
 				8635B54A2B5579A50084A7C6 /* SceneDelegate.swift */,
 				8635B54C2B5579A50084A7C6 /* ViewController.swift */,
@@ -69,6 +74,15 @@
 				8635B5562B5579A60084A7C6 /* Info.plist */,
 			);
 			path = FontDownloader;
+			sourceTree = "<group>";
+		};
+		8635B5622B557D190084A7C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8635B5632B557D370084A7C6 /* FontStateManager.swift */,
+				8635B5652B557D4D0084A7C6 /* FontDownloader.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8635B5662B557D4D0084A7C6 /* FontDownloader.swift in Sources */,
+				8635B5642B557D370084A7C6 /* FontStateManager.swift in Sources */,
 				8635B54D2B5579A50084A7C6 /* ViewController.swift in Sources */,
 				8635B5492B5579A50084A7C6 /* AppDelegate.swift in Sources */,
 				8635B54B2B5579A50084A7C6 /* SceneDelegate.swift in Sources */,
