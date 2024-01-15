@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  FontDownloader
+
+  Created by MH on 2024/01/15.
+  
+*/
+
+//フォントの状態
+"Preparing" = "Preparing";
+"Undownloaded" = "Undownloaded";
+"Downloading" = "Downloading...";
+"Downloaded" = "Downloaded";
+"Unresponsive" = "Unresponsive";
+
+//ボタン
+"Download" = "Download";
+
+//エラー
+"FontName" = "Font Name : ";
+
+//システムフォント
+"SystemFont" = "System Font";
+
+//フォント名前半(Appleのサポートサイトに出ている名前)
+"HiraMaruProN" = "Hiragino Maru Gothic ProN";
+"HiraMinProN" = "Hiragino Mincho ProN";
+"HiraginoSans" = "Hiragino Sans";
+"Osaka" = "Osaka";
+"Klee" = "Klee";
+"ToppanBunkyuMidashiMinchoStdN" = "Toppan Bunkyu Midashi Mincho";
+"ToppanBunkyuMidashiGothicStdN" = "Toppan Bunkyu Midashi Gothic";
+"ToppanBunkyuGothicPr6N" = "Toppan Bunkyu Gothic";
+"ToppanBunkyuMinchoPr6N" = "Toppan Bunkyu Mincho";
+"TsukuARdGothic" = "Tsukushi A Round Gothic";
+"TsukuBRdGothic" = "Tsukushi B Round Gothic";
+"YuGo" = "YuGothic";
+"YuKyo" = "YuKyokasho";
+"YuKyo_Yoko" = "YuKyokasho Yoko";
+"YuMin" = "YuMincho";
+"YuMin_36pKn" = "YuMincho +36p Kana";
+
+//フォント名後半(Appleのサポートサイトに出ている名前)
+"NoAttributeName" = "No Attribute Name";
+"W0" = "W0";
+"W1" = "W1";
+"W2" = "W2";
+"W3" = "W3";
+"W4" = "W4";
+"W5" = "W5";
+"W6" = "W6";
+"W7" = "W7";
+"W8" = "W8";
+"W9" = "W9";
+"Mono" = "Mono";
+"Regular" = "Regular";
+"Medium" = "Medium";
+"Bold" = "Bold";
+"Demibold" = "Demibold";
+"DB" = "Demibold";
+"ExtraBold" = "ExtraBold";
+"Extrabold" = "Extrabold";
+
+//フォント名総合(Appleのサポートサイトに出ている名前)
+"HiraMaruProN-W4" = "Hiragino Maru Gothic ProN W4";
+"HiraMinProN-W3" = "Hiragino Mincho ProN W3";
+"HiraMinProN-W6" = "Hiragino Mincho ProN W6";
+"HiraginoSans-W0" = "Hiragino Sans W0";
+"HiraginoSans-W1" = "Hiragino Sans W1";
+"HiraginoSans-W2" = "Hiragino Sans W2";
+"HiraginoSans-W3" = "Hiragino Sans W3";
+"HiraginoSans-W4" = "Hiragino Sans W4";
+"HiraginoSans-W5" = "Hiragino Sans W5";
+"HiraginoSans-W6" = "Hiragino Sans W6";
+"HiraginoSans-W7" = "Hiragino Sans W7";
+"HiraginoSans-W8" = "Hiragino Sans W8";
+"HiraginoSans-W9" = "Hiragino Sans W9";
+"Osaka" = "Osaka";
+"Osaka-Mono" = "Osaka-Mono";
+"Klee-Medium" = "Klee Medium";
+"Klee-Demibold" = "Klee Demibold";
+"ToppanBunkyuMidashiMinchoStdN-ExtraBold" = "Toppan Bunkyu Midashi Mincho Extrabold";
+"ToppanBunkyuMidashiGothicStdN-ExtraBold" = "Toppan Bunkyu Midashi Gothic Extrabold";
+"ToppanBunkyuGothicPr6N-Regular" = "Toppan Bunkyu Gothic Regular";
+"ToppanBunkyuGothicPr6N-DB" = "Toppan Bunkyu Gothic Demibold";
+"ToppanBunkyuMinchoPr6N-Regular" = "Toppan Bunkyu Mincho Regular";
+"TsukuARdGothic-Regular" = "Tsukushi A Round Gothic Regular";
+"TsukuARdGothic-Bold" = "Tsukushi A Round Gothic Bold";
+"TsukuBRdGothic-Regular" = "Tsukushi B Round Gothic Regular";
+"TsukuBRdGothic-Bold" = "Tsukushi B Round Gothic Bold";
+"YuGo-Medium" = "YuGothic Medium";
+"YuGo-Bold" = "YuGothic Bold";
+"YuKyo-Medium" = "YuKyokasho Medium";
+"YuKyo-Bold" = "YuKyokasho Bold";
+"YuKyo_Yoko-Medium" = "YuKyokasho Yoko Medium";
+"YuKyo_Yoko-Bold" = "YuKyokasho Yoko Bold";
+"YuMin-Medium" = "YuMincho Medium";
+"YuMin-Demibold" = "YuMincho Demibold";
+"YuMin-Extrabold" = "YuMincho Extrabold";
+"YuMin_36pKn-Medium" = "YuMincho +36p Kana Medium";
+"YuMin_36pKn-Demibold" = "YuMincho +36p Kana Demibold";
+"YuMin_36pKn-Extrabold" = "YuMincho +36p Kana Extrabold";
+

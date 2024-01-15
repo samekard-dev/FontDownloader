@@ -1,0 +1,103 @@
+/* 
+  Localizable.strings
+  FontDownloader
+
+  Created by MH on 2024/01/15.
+  
+*/
+
+//フォントの状態
+"Preparing" = "準備中";
+"Undownloaded" = "未ダウンロード";
+"Downloading" = "ダウンロード中...";
+"Downloaded" = "ダウンロード済み";
+"Unresponsive" = "対応していない";
+
+//ボタン
+"Download" = "ダウンロード";
+
+//エラー
+"FontName" = "フォント名 : ";
+
+//システムフォント
+"SystemFont" = "システムフォント";
+
+//フォント名前半(Appleのサポートサイトに出ている名前)
+"HiraMaruProN" = "ヒラギノ丸ゴ ProN";
+"HiraMinProN" = "ヒラギノ明朝 ProN";
+"HiraginoSans" = "ヒラギノ角ゴシック";
+"Osaka" = "Osaka";
+"Klee" = "クレー";
+"ToppanBunkyuMidashiMinchoStdN" = "凸版文久見出し明朝";
+"ToppanBunkyuMidashiGothicStdN" = "凸版文久見出しゴシック";
+"ToppanBunkyuGothicPr6N" = "凸版文久ゴシック";
+"ToppanBunkyuMinchoPr6N" = "凸版文久明朝";
+"TsukuARdGothic" = "筑紫 A 丸ゴシック";
+"TsukuBRdGothic" = "筑紫 B 丸ゴシック";
+"YuGo" = "游ゴシック体";
+"YuKyo" = "遊教科書体";
+"YuKyo_Yoko" = "遊教科書体 横用";
+"YuMin" = "游明朝体";
+"YuMin_36pKn" = "游明朝体 +36ポかな";
+
+//フォント名後半(Appleのサポートサイトに出ている名前)
+"NoAttributeName" = "属性名なし";
+"W0" = "W0";
+"W1" = "W1";
+"W2" = "W2";
+"W3" = "W3";
+"W4" = "W4";
+"W5" = "W5";
+"W6" = "W6";
+"W7" = "W7";
+"W8" = "W8";
+"W9" = "W9";
+"Mono" = "等幅";
+"Regular" = "レギュラー";
+"Medium" = "ミディアム";
+"Bold" = "ボールド";
+"Demibold" = "デミボールド";
+"DB" = "デミボールド";
+"ExtraBold" = "エクストラボールド";
+"Extrabold" = "エクストラボールド";
+
+//フォント名総合(Appleのサポートサイトに出ている名前)
+"HiraMaruProN-W4" = "ヒラギノ丸ゴ ProN W4";
+"HiraMinProN-W3" = "ヒラギノ明朝 ProN W3";
+"HiraMinProN-W6" = "ヒラギノ明朝 ProN W6";
+"HiraginoSans-W0" = "ヒラギノ角ゴシック W0";
+"HiraginoSans-W1" = "ヒラギノ角ゴシック W1";
+"HiraginoSans-W2" = "ヒラギノ角ゴシック W2";
+"HiraginoSans-W3" = "ヒラギノ角ゴシック W3";
+"HiraginoSans-W4" = "ヒラギノ角ゴシック W4";
+"HiraginoSans-W5" = "ヒラギノ角ゴシック W5";
+"HiraginoSans-W6" = "ヒラギノ角ゴシック W6";
+"HiraginoSans-W7" = "ヒラギノ角ゴシック W7";
+"HiraginoSans-W8" = "ヒラギノ角ゴシック W8";
+"HiraginoSans-W9" = "ヒラギノ角ゴシック W9";
+"Osaka" = "Osaka";
+"Osaka-Mono" = "Osaka-等幅";
+"Klee-Medium" = "クレー ミディアム";
+"Klee-Demibold" = "クレー デミボールド";
+"ToppanBunkyuMidashiMinchoStdN-ExtraBold" = "凸版文久見出し明朝 エクストラボールド";
+"ToppanBunkyuMidashiGothicStdN-ExtraBold" = "凸版文久見出しゴシック エクストラボールド";
+"ToppanBunkyuGothicPr6N-Regular" = "凸版文久ゴシック レギュラー";
+"ToppanBunkyuGothicPr6N-DB" = "凸版文久ゴシック デミボールド";
+"ToppanBunkyuMinchoPr6N-Regular" = "凸版文久明朝 レギュラー";
+"TsukuARdGothic-Regular" = "筑紫 A 丸ゴシック レギュラー";
+"TsukuARdGothic-Bold" = "筑紫 A 丸ゴシック ボールド";
+"TsukuBRdGothic-Regular" = "筑紫 B 丸ゴシック レギュラー";
+"TsukuBRdGothic-Bold" = "筑紫 B 丸ゴシック ボールド";
+"YuGo-Medium" = "游ゴシック体 ミディアム";
+"YuGo-Bold" = "游ゴシック体 ボールド";
+"YuKyo-Medium" = "遊教科書体 ミディアム";
+"YuKyo-Bold" = "遊教科書体 ボールド";
+"YuKyo_Yoko-Medium" = "遊教科書体 横用 ミディアム";
+"YuKyo_Yoko-Bold" = "遊教科書体 横用 ボールド";
+"YuMin-Medium" = "游明朝体 ミディアム";
+"YuMin-Demibold" = "游明朝体 デミボールド";
+"YuMin-Extrabold" = "游明朝体 エクストラボールド";
+"YuMin_36pKn-Medium" = "游明朝体 +36ポかな ミディアム";
+"YuMin_36pKn-Demibold" = "游明朝体 +36ポかな デミボールド";
+"YuMin_36pKn-Extrabold" = "游明朝体 +36ポかな エクストラボールド";
+
